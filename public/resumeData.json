@@ -2,7 +2,7 @@
   "main": {
     "name":"Kevin Downs",
     "occupation":"Full Stack Software Engineer",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description":"I am a Linguist turned Full Stack Engineer with a background in Healthcare and Customer Service. I'm currently looking for opportunities as a Junior Developer.",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -110,10 +110,16 @@
         "url":"https://pokepet.herokuapp.com"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Javascript Adventure",
+        "category":"2D Dungeon crawling game using HTML5 and Javascript with a Rails back end. ",
+        "image":"js-adventure.jpg",
+        "url":"https://jsadventure.herokuapp.com"
+      },
+      {
+        "title":"Reclaim My Rep",
+        "category":"Sinatra web application for tracking govt representatives and encouraging civic responsibility. ",
+        "image":"reclaim-my-rep.jpg",
+        "url":"https://reclaim-my-rep.herokuapp.com"
       },
       {
         "title":"Resume Website",

@@ -38,15 +38,15 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
+        "school":"Flatiron School",
+        "degree":"Full Stack Software Engineering Program",
+        "graduated":"May 2020",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
+        "school":"Temple University",
+        "degree":"Spanish Linguistics and Literature",
+        "graduated":"May 2012",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
@@ -66,19 +66,19 @@
     ],
     "skills":[
       {
-        "name":"Git",
+        "name":"Ruby",
         "level":"60%"
       },
       {
-        "name":"Illustrator",
+        "name":"Ruby on Rails",
         "level":"55%"
       },
       {
-        "name":"ReactJs",
+        "name":"JavaScript",
         "level":"50%"
       },
       {
-        "name":"CSS",
+        "name":"Reactjs",
         "level":"90%"
       },
       {
@@ -86,11 +86,11 @@
         "level":"80%"
       },
       {
-        "name":"VueJs",
+        "name":"CSS",
         "level":"50%"
       },
       {
-        "name":"MongoDB",
+        "name":"SQLite",
         "level":"80%"
       }
     ]
@@ -98,16 +98,16 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Nook Services",
+        "category":"React JS/ Redux companion app for Animal Crossing New Horizons with Rails back end.",
+        "image":"nook-services.jpg",
+        "url":"https://nook-services.herokuapp.com"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"PokePet",
+        "category":"Ruby on Rails Pokemon pet simulator application.",
+        "image":"pokepet.jpg",
+        "url":"https://pokepet.herokuapp.com"
       },
       {
         "title":"Original Thai Food",
@@ -120,12 +120,6 @@
         "category":"A React based resume website template",
         "image":"resume-website.jpg",
         "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
       }
     ]
   },

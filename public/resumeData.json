@@ -127,12 +127,6 @@
         "category":"Sinatra web application for tracking govt representatives and encouraging civic responsibility. ",
         "image":"reclaim-my-rep.jpg",
         "url":"https://reclaim-my-rep.herokuapp.com"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
       }
     ]
   },

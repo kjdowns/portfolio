@@ -289,20 +289,27 @@ ul#nav li.current a { color: #F06000; }
 	width: 95%;
 	float: left;
 	padding: 0;
-	text-align: left;
+   text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+}
+.bars img {
+   height: 150px;
+   width: 150px;
+   padding: 20px;
 }
 .bars .skills {
   	margin-top: 36px;
    list-style: none;
 }
-.bars li {
+/* .bars li {
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
   	height: 42px;
   	border-radius: 3px;
-}
-.bars li em {
+} */
+.bars div em {
 	font: 15px 'opensans-bold', sans-serif;
    color: #313131;
 	text-transform: uppercase;

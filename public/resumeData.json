@@ -2,7 +2,7 @@
   "main": {
     "name":"Kevin Downs",
     "occupation":"Full Stack Software Engineer",
-    "description":"I am a Linguist turned Full Stack Engineer with a background in Healthcare and Customer Service. I'm currently looking for opportunities as a Junior Developer.",
+    "description":"I'm a Linguist turned Full Stack Engineer with a background in Healthcare and Customer Service, currently looking for opportunities as a Junior Developer.",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -67,31 +67,38 @@
     "skills":[
       {
         "name":"Ruby",
-        "level":"60%"
+        "level":"60%",
+        "icon":"ruby.jpg"
       },
       {
         "name":"Ruby on Rails",
-        "level":"55%"
+        "level":"55%",
+        "icon":"rails.jpg"
       },
       {
         "name":"JavaScript",
-        "level":"50%"
+        "level":"50%",
+        "icon":"js.png"
       },
       {
         "name":"Reactjs",
-        "level":"90%"
+        "level":"90%",
+        "icon":"react.png"
       },
       {
         "name":"HTML5",
-        "level":"80%"
+        "level":"80%",
+        "icon":"html.png"
       },
       {
         "name":"CSS",
-        "level":"50%"
+        "level":"50%",
+        "icon":"css.png"
       },
       {
-        "name":"SQLite",
-        "level":"80%"
+        "name":"Git",
+        "level":"80%",
+        "icon":"git.png"
       }
     ]
   },

@@ -1,6 +1,17 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
+
+   constructor(){
+      super()
+      this.state = {
+         contactName: "",
+         contactEmail: "",
+         contactSubject: "",
+         contactMessage: ""
+      }
+   }
+
   render() {
 
     if(this.props.data){

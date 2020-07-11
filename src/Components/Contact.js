@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import emailjs from 'emailjs-com';
 
 class Contact extends Component {
 
@@ -20,6 +21,14 @@ class Contact extends Component {
 
   handleSubmit = (event) => {
      event.preventDefault();
+
+     emailjs.send("gmail", "portfolio_contact", this.state, "user_NITmvUd5W9ZIuiyjiZJvJ")
+      .then(function(response) {
+         console.log('SUCCESS!', response.status, response.text);
+      }, function(error) {
+         console.log('FAILED...', error);
+      });
+      
      this.setState({
       contactName: "",
       contactEmail: "",

@@ -1,6 +1,23 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
+
+   constructor(){
+      super()
+      this.state ={
+         contactName: "",
+         contactEmail: "",
+         contactSubject: "",
+         contactMessage: ""
+      }
+   }
+
+   handleChange = (event) => {
+      this.setState({
+          [event.target.name]: event.target.value
+      })
+  }
+
   render() {
 
     if(this.props.data){
@@ -41,22 +58,22 @@ class Contact extends Component {
 
                   <div>
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+						   <input type="text" value={this.props.contactName} size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
+						   <input type="text" value={this.props.contactEmail} size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
+						   <input type="text" value={this.props.contactSubject} size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="15" value={this.props.contactMessage} id="contactMessage" name="contactMessage" onChange={this.handleChange}></textarea>
                   </div>
 
                   <div>

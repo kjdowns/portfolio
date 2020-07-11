@@ -18,6 +18,16 @@ class Contact extends Component {
       })
   }
 
+  handleSubmit = (event) => {
+     event.preventDefault();
+     this.setState({
+      contactName: "",
+      contactEmail: "",
+      contactSubject: "",
+      contactMessage: ""
+   })
+  }
+
   render() {
 
     if(this.props.data){
@@ -53,31 +63,31 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form id="contactForm" name="contactForm" onSubmit={this.handleSubmit}>
 					<fieldset>
 
                   <div>
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" value={this.props.contactName} size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+						   <input type="text" value={this.state.contactName} size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" value={this.props.contactEmail} size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
+						   <input type="text" value={this.state.contactEmail} size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" value={this.props.contactSubject} size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
+						   <input type="text" value={this.state.contactSubject} size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" value={this.props.contactMessage} id="contactMessage" name="contactMessage" onChange={this.handleChange}></textarea>
+                     <textarea cols="50" rows="15" value={this.state.contactMessage} id="contactMessage" name="contactMessage" onChange={this.handleChange}></textarea>
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                     <input type="submit" className="submit" value="Submit"/>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>

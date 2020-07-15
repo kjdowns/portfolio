@@ -35,19 +35,19 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Below are some of the technologies I am comfortable in and have used to build projects. ",
     "education":[
       {
         "school":"Flatiron School",
         "degree":"Full Stack Software Engineering Program",
         "graduated":"May 2020",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Full Stack program focused on the fundamentals of OOP and web technologies. Back end curriculum included Ruby and Rails, with front end focusing on Javascript and React. Curriculum also covered best practices and patterns such as CRUD and REST. "
       },
       {
         "school":"Temple University",
         "degree":"Spanish Linguistics and Literature",
         "graduated":"May 2012",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Bachelor of Arts program focused on the development of advanced Spanish language skills. Specific areas of study include Latin American and Hispanic Literature and Culture, Translation Skills, and various linguistic focuses."
       }
     ],
     "work":[

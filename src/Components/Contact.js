@@ -22,12 +22,18 @@ class Contact extends Component {
   handleSubmit = (event) => {
      event.preventDefault();
 
+     if(this.state.contactEmail !== ""){
      emailjs.send("gmail", "portfolio_contact", this.state, "user_NITmvUd5W9ZIuiyjiZJvJ")
       .then(function(response) {
          console.log('SUCCESS!', response.status, response.text);
+         alert("Thank you for your message. I'll be in touch as soon as possible!")
       }, function(error) {
          console.log('FAILED...', error);
+         alert("Something went wrong with your submission. Please try again.")
       });
+   } else {
+      alert("Please provide a contact email.")
+   }
       
      this.setState({
       contactName: "",

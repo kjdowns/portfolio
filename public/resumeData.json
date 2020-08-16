@@ -36,6 +36,7 @@
   },
   "resume":{
     "skillmessage":"Below are some of the technologies I am comfortable in and have used to build projects. ",
+    "learningmessage":"These are some of the technologies I am currently learning and experimenting with",
     "education":[
       {
         "school":"Flatiron School",
@@ -99,6 +100,29 @@
         "name":"Git",
         "level":"80%",
         "icon":"git.png"
+      },
+      {
+        "name":"Heroku",
+        "level":"50%",
+        "icon":"heroku.png"
+      }
+    ],
+    "learningskills":[
+      {
+        "name":"NodeJS",
+        "icon":"nodejs.png"
+      },
+      {
+        "name":"Express",
+        "icon":"express.png"
+      },
+      {
+        "name":"MongoDB",
+        "icon":"mongodb.png"
+      },
+      {
+        "name":"Docker",
+        "icon":"docker.png"
       }
     ]
   },
